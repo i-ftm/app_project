@@ -4,7 +4,6 @@ from django.db.models import Q
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.dateparse import parse_date
-from django.utils.decorators import method_decorator
 import json
 
 
@@ -39,7 +38,7 @@ def book_list(request):
     
     return JsonResponse({'books': book_list})
 
-
+@csrf_exempt
 def search_book(request):
     query = request.GET.get('query')
     books = Book.objects.all()
@@ -90,6 +89,7 @@ def delete_book(request , bookID):
 
     return JsonResponse({'error': 'Only DELETE requests are allowed'}, status=400) 
 
+@csrf_exempt
 def fillter_book_list(request):
     books = Book.objects.all()
 

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>افزودن کتاب</title>
+</head>
+<body>
+    <h1>افزودن کتاب جدید</h1>
+    <form method="post" action="">
+        {% csrf_token %}
+        {{ form.as_p }}  <!-- نمایش فرم -->
+        <button type="submit">افزودن کتاب</button>
+    </form>
+    <a href="{% url 'book_list' %}">بازگشت به لیست کتاب‌ها</a>
+</body>
+</html>
+
+
+
+

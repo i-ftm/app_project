@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>فیلتر کتاب‌ها</title>
+</head>
+<body>
+    <h1>فیلتر کردن کتاب‌ها</h1>
+    <form method="get" action="">
+        قیمت حداقل: <input type="number" name="price_min"><br>
+        قیمت حداکثر: <input type="number" name="price_max"><br>
+        تاریخ انتشار: <input type="date" name="publication_date"><br>
+        <button type="submit">فیلتر کردن</button>
+    </form>
+
+    <ul>
+        {% for book in books %}
+            <li>
+                <strong>{{ book.title }}</strong> - نویسنده: {{ book.author }} <br>
+                قیمت: {{ book.price }} تومان <br>
+                تاریخ انتشار: {{ book.publicationdate }}
+            </li>
+        {% empty %}
+            <li>کتابی برای نمایش وجود ندارد.</li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'book_list' %}">برگشت به لیست کتاب‌ها</a>
+</body>
+</html>

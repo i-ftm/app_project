@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>حذف کتاب</title>
+</head>
+<body>
+    <h1>حذف کتاب: {{ book.title }}</h1>
+    <p>آیا مطمئن هستید که می‌خواهید این کتاب را حذف کنید؟</p>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">حذف کتاب</button>
+    </form>
+    <a href="{% url 'book_list' %}">برگشت به لیست کتاب‌ها</a>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>لیست کتاب‌ها</title>
+</head>
+<body>
+    <h1>لیست کتاب‌ها</h1>
+    <form method="get" action="{% url 'search_book' %}">
+        {{ search_form.as_p }}
+        <button type="submit">جستجو</button>
+    </form>
+    <a href="{% url 'add_book' %}">افزودن کتاب جدید</a>
+    
+    <ul>
+        {% for book in books %}
+            <li>
+                <strong>{{ book.title }}</strong> - نویسنده: {{ book.author }} <br>
+                قیمت: {{ book.price }} تومان <br>
+                تاریخ انتشار: {{ book.publicationdate }}
+                <br>
+                <a href="{% url 'edit_book' book.id %}">ویرایش</a>
+                <a href="{% url 'delete_book' book.id %}">حذف</a>
+            </li>
+        {% empty %}
+            <li>کتابی برای نمایش وجود ندارد.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

@@ -6,6 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="5d1c53b5-f935-436d-ba27-07bd9524e97c" name="Changes" comment="v2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ERdiagram/library.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/ERdiagram/library.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ERdiagram/library.png" beforeDir="false" afterPath="$PROJECT_DIR$/ERdiagram/library.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/financial/Library_management/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/financial/Library_management/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/financial/Library_management/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/financial/Library_management/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/financial/Library_management/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/financial/Library_management/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/financial/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/financial/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/financial/financial/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/financial/financial/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,19 +34,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "E:/Django/tamrin/app_project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -56,7 +64,9 @@
       <option name="presentableId" value="Default" />
       <updated>1725119210178</updated>
       <workItem from="1725119212572" duration="35000" />
-      <workItem from="1725120052976" duration="8290000" />
+      <workItem from="1725120052976" duration="10450000" />
+      <workItem from="1725549418911" duration="22000" />
+      <workItem from="1725780308073" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="creat models">
       <option name="closed" value="true" />
@@ -138,7 +148,31 @@
       <option name="project" value="LOCAL" />
       <updated>1725225889579</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="v2">
+      <option name="closed" value="true" />
+      <created>1725226417572</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725226417572</updated>
+    </task>
+    <task id="LOCAL-00012" summary="v2">
+      <option name="closed" value="true" />
+      <created>1725226443458</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1725226443458</updated>
+    </task>
+    <task id="LOCAL-00013" summary="v2">
+      <option name="closed" value="true" />
+      <created>1725227095120</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1725227095120</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

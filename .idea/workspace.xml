@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d1c53b5-f935-436d-ba27-07bd9524e97c" name="Changes" comment="v2">
-      <change afterPath="$PROJECT_DIR$/financial/dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financial/Library_management/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/financial/Library_management/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financial/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/financial/db.sqlite3" afterDir="false" />
-    </list>
+    <list default="true" id="5d1c53b5-f935-436d-ba27-07bd9524e97c" name="Changes" comment="dockerize" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +39,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Django\tamrin\app_project" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -64,7 +64,7 @@
       <workItem from="1725549418911" duration="22000" />
       <workItem from="1725780308073" duration="6000" />
       <workItem from="1726986072785" duration="44000" />
-      <workItem from="1727009949672" duration="666000" />
+      <workItem from="1727009949672" duration="1380000" />
     </task>
     <task id="LOCAL-00001" summary="creat models">
       <option name="closed" value="true" />
@@ -186,7 +186,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727009963906</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="dockerize">
+      <option name="closed" value="true" />
+      <created>1727081302181</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1727081302181</updated>
+    </task>
+    <task id="LOCAL-00017" summary="dockerize">
+      <option name="closed" value="true" />
+      <created>1727081317379</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1727081317379</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +225,7 @@
     <MESSAGE value="migrate-1" />
     <MESSAGE value="v1" />
     <MESSAGE value="v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="v2" />
+    <MESSAGE value="dockerize" />
+    <option name="LAST_COMMIT_MESSAGE" value="dockerize" />
   </component>
 </project>
